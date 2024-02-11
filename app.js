@@ -61,5 +61,4 @@ const forecastFunc = async (city) => {
     </div>
      `;
   }
-  btn.disabled = false;
 };
