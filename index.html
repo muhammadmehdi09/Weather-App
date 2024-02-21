@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <script src="https://cdn.tailwindcss.com"></script>
   <link rel="icon" href="./Images/Logo.png">
+  <link rel="manifest" href="./manifest.json">
   <title>Weather Forecast</title>
 </head>
 
@@ -31,6 +32,13 @@
     <div id="forecast" class="flex mt-8 space-x-4 bg-[#aecce4] rounded-xl font-semibold text-white opacity-70 px-1 w-72"></div>
 
   </div>
+  <script>
+    if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.register(
+      '/sw.js'
+    );
+  }
+  </script>
   <script src="./app.js"></script>
 </body>
 

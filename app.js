@@ -18,7 +18,10 @@ const currentTempFunc = async (city) => {
            ${object.message}
          </div>
   `
-  } else {
+  } 
+  
+  
+  else {
     currentTemp.innerHTML = `
     <div class="">
       <div class="bg-[#d1e5f4] rounded-xl w-60 mx-auto p-1 opacity-50">
