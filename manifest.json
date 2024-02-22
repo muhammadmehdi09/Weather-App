@@ -2,7 +2,7 @@
     "dir": "ltr",
     "name": "Weather App by Muhammad Mehdi",
     "scope": "/",
-    "short_name": "Weat",
+    "short_name": "Weather App",
     "start_url": "/",
     "icons": [
         {
